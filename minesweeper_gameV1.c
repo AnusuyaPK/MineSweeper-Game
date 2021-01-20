@@ -315,10 +315,9 @@ int main()
     int mines;
     int size;
 
-    complx = complexity();
-
     if(startGame == 1)
     {
+        complx = complexity();
         if(complx == 1)
         {
             size = 5;
